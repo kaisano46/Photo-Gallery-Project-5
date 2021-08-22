@@ -28,7 +28,7 @@ input[type="search"]{
     color: rgb(168, 166, 166);
   }
 
-.pic{
+.gallery{
     display: grid;
     max-width: 1000px;
     margin: auto;
