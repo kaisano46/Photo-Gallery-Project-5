@@ -14,7 +14,7 @@ main{
 input[type="search"]{
     /* margin: 15px; */
     padding: 20px;
-    width: 480px;
+    width: 40%;
     height: 25px;
     border: solid 2px;
     border-color: rgb(168, 166, 166,.5);
