@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    margin: 2em 40px;
+    
+}
+
+
+input[type="search"]{
+    /* margin: 15px; */
+    padding: 20px;
+    width: 480px;
+    height: 25px;
+    border: solid 2px;
+    border-color: rgb(168, 166, 166,.5);
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    color: rgb(168, 166, 166);
+  }
+
+.pic{
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 25px;
+    justify-content: center;
+   
+}
